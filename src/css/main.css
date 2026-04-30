@@ -28,4 +28,40 @@ height: 960px;
     margin-top: 150px;
 }
 }
-
+/* The Concept */
+.concept-img-desk{
+    display: none;
+}
+.concept-img{
+    margin: 18px auto;
+}
+.concept-text{
+    width: 332px;
+}
+.concept-container{
+    padding-top: 80px;
+}
+@media only screen and (min-width: 1440px) {
+.concept-container {
+    padding-top: 150px;
+    position: relative;
+}
+.concept-img{
+position: absolute;
+top: 150px;
+left: 188px;
+}
+.concept-img-desk{
+    display: block;
+position: absolute;
+    top: 150px;
+    right: 188px;
+}
+.concept-text{
+    width: 849px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    text-align: center;
+}
+}

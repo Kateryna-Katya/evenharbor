@@ -1,3 +1,27 @@
 body{
   background: radial-gradient(50% 50% at 50% 50%, #18335b 0%, #030e2a 100%);
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #eaf4f7;
+}
+h2{
+  font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+    color: #8bdecf;
+    margin-bottom: 28px;
+}
+h3{
+  font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fde9bb;
 }
