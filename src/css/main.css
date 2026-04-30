@@ -252,3 +252,52 @@ border: 1px solid #8bdecf;
     width: 389px;
   }
 }
+/* Testimonials */
+.btn-wrapper{
+    display: none;
+}
+.gallery-swiper .swiper-slide{
+    border: 1px solid #8bdecf;
+        border-radius: 60px;
+        padding: 12px;
+        width: 305px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.testimonials-wrapper{
+    border: 1px solid #8bdecf;
+        border-radius: 48px;
+        padding: 16px;
+        width: 281px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 22px;
+}
+.author-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.author{
+    font-family: "Playfair Display", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        text-transform: capitalize;
+        color: #fde9bb;
+}
+.btn-wrapper{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn{
+    cursor: pointer;
+    background: inherit;
+    border: none;
+}
