@@ -195,3 +195,60 @@ font-family: "Inter", sans-serif;
     gap: 22px;
  }
 }
+/* Progression */
+.core-swiper{
+    margin-top: 22px;
+}
+.core-swiper .swiper-slide{
+border: 1px solid #8bdecf;
+    border-radius: 60px;
+    padding: 12px;
+    width: 335px;
+    height: auto;
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+}
+.progression-wrapper{
+    border: 1px solid #8bdecf;
+        border-radius: 48px;
+        padding: 16px;
+        width: 311px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.progression-ttile-item{
+    margin-top: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #8bdecf;
+}
+.progression-list{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+}
+.progression-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+  .core-swiper{
+    margin-top: 26px;
+  }
+  .core-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 21px;
+  }
+  .core-swiper .swiper-slide{
+    width: 412px;
+  }
+  .progression-wrapper{
+    width: 389px;
+  }
+}
